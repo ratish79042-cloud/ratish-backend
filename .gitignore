@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Alembic
+alembic/versions/*.pyc
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Cloudinary uploads (if local)
+uploads/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Secrets
+*.pem
+*.key
+*.crt
+
+# Cache
+.cache/
+
+# Coverage
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node modules (if frontend exists inside backend)
+node_modules/
