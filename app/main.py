@@ -83,7 +83,10 @@ app = FastAPI(
 # CORS configurations
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ratish-gt.vercel.app/"],  # Allows all origins; can restrict to ["http://localhost:5173"] for production
+    allow_origins=[
+        "http://localhost:5173",
+        "https://ratish-gt.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
